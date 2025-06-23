@@ -1,4 +1,4 @@
-# QA Sprint 6 – Taxi App: Logs & Database 🚕🗄️
+# Logs & Database - Taxi App
 
 ![QA](https://img.shields.io/badge/Testes-Console%20e%20Banco%20de%20Dados-blue)
 ![Ferramenta](https://img.shields.io/badge/Logs-Analise-green)
