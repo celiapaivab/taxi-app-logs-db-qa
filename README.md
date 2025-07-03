@@ -5,22 +5,23 @@
 ![Ferramenta](https://img.shields.io/badge/PostgreSQL-Consultas-orange)
 ![Ferramenta](https://img.shields.io/badge/Bash-Terminal-lightgrey)
 
-Projeto desenvolvido como parte do curso de QA, focado na análise de logs e consultas ao banco de dados do aplicativo de táxi.
-
 ---
 
 ## 📌 Sobre o Projeto
 
-O projeto consistiu em:
-- Buscar e filtrar registros de log via terminal (console)
-- Manipular e organizar registros em arquivos
-- Realizar consultas SQL para verificar dados de frota, empresas e corridas
+Projeto desenvolvido como parte do curso de QA, com foco em análise de logs no console e consultas em banco de dados de um app de táxi.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Investigar registros de logs para identificar IPs e erros, além de validar dados da frota e corridas no banco de dados, apoiando a equipe de backend.
 
 ---
 
 ## 🔧 Ferramentas Utilizadas
 
-- 🖥️ **Console (Bash)** — análise e manipulação dos logs
+- 🖥️ **Terminal (Bash)** — análise e manipulação dos logs
 - 🗄️ **PostgreSQL** — consultas no banco de dados
 - 📄 **Google Docs** — documentação dos resultados
 
@@ -28,12 +29,38 @@ O projeto consistiu em:
 
 ## ▶️ Como Executar
 
-As tarefas foram realizadas diretamente no servidor remoto via SSH, utilizando comandos Bash para análise de logs e psql para consultas ao banco de dados PostgreSQL.  
-Os scripts, comandos e queries podem ser conferidos na documentação abaixo.
+1. Conectar-se ao servidor via console;  
+2. Executar comandos Bash para filtrar e organizar logs;  
+3. Realizar consultas SQL no banco **chicago_taxi**;  
+4. Documentar evidências no Google Docs.
 
 ---
 
-## 📋 Links do Projeto
+## 🧾 Resultado
+
+- Comandos para consulta e filtragem de logs;  
+- Extração de dados de IPs e erros 400/500;  
+- Consulta SQL para validar frota, empresas e condições climáticas;  
+- Evidências organizadas e compartilhadas em Google Docs.
+
+---
+
+## 📚 Aprendizados
+
+- Filtrar logs via terminal;  
+- Escrever consultas SQL com joins e condições;  
+- Produzir evidências claras para backend QA.
+
+---
+
+## 💡 Melhorias Futuras
+
+- Automatizar rotinas de coleta de logs;  
+- Integrar scripts de consulta com relatórios automatizados.
+
+---
+
+## 📂 Evidências
 
 - [`📄 Documentação das tarefas`](https://docs.google.com/document/d/1PMawzHyqS_U6IcaafOOS0EJXGPhsbQmKfFfWpv8F3rE/edit?usp=sharing)
 
