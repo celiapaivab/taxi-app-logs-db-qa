@@ -19,7 +19,7 @@ Investigar registros de logs para identificar IPs e erros, além de validar dado
 
 ---
 
-## 🔧 Ferramentas Utilizadas
+## 🔧 Tecnologias e Ferramentas
 
 - 🖥️ **Terminal (Bash)** — análise e manipulação dos logs
 - 🗄️ **PostgreSQL** — consultas no banco de dados
@@ -60,7 +60,7 @@ Investigar registros de logs para identificar IPs e erros, além de validar dado
 
 ---
 
-## 📂 Evidências
+## 📂 Arquivos do Projeto
 
 - [`📄 Documentação das tarefas`](https://docs.google.com/document/d/1PMawzHyqS_U6IcaafOOS0EJXGPhsbQmKfFfWpv8F3rE/edit?usp=sharing)
 
