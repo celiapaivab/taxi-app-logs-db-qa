@@ -4,6 +4,8 @@
 ![Ferramenta](https://img.shields.io/badge/Logs-Analise-green)
 ![Ferramenta](https://img.shields.io/badge/PostgreSQL-Consultas-orange)
 ![Ferramenta](https://img.shields.io/badge/Bash-Terminal-lightgrey)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/celia-bruno)
+
 
 ---
 
