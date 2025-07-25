@@ -1,75 +1,70 @@
 # Logs & Database - Taxi App
 
-![QA](https://img.shields.io/badge/Testes-Console%20e%20Banco%20de%20Dados-blue)
-![Ferramenta](https://img.shields.io/badge/Logs-Analise-green)
-![Ferramenta](https://img.shields.io/badge/PostgreSQL-Consultas-orange)
-![Ferramenta](https://img.shields.io/badge/Bash-Terminal-lightgrey)
+![QA](https://img.shields.io/badge/Tests-Console%20and%20Database-blue)
+![Tool](https://img.shields.io/badge/Logs-Analysis-green)
+![Tool](https://img.shields.io/badge/PostgreSQL-Queries-orange)
+![Tool](https://img.shields.io/badge/Bash-Terminal-lightgrey)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/celia-bruno)
 
+---
+
+## 📌 Project Overview
+
+This project was developed as part of my QA training and focuses on analyzing server logs and performing SQL queries for a **taxi application**.  
+The goal was to practice investigating **backend log data**, identify **IPs** and **error patterns**, and validate **fleet and ride data** directly in the **PostgreSQL** database to support the backend QA process.  
+All queries and log extractions were documented to ensure clear communication with the development team.
 
 ---
 
-## 📌 Sobre o Projeto
+## 🎯 Project Goal
 
-Projeto desenvolvido como parte do curso de QA, com foco em análise de logs no console e consultas em banco de dados de um app de táxi.
-
----
-
-## 🎯 Objetivo do Projeto
-
-Investigar registros de logs para identificar IPs e erros, além de validar dados da frota e corridas no banco de dados, apoiando a equipe de backend.
+- Analyze server logs to identify IP addresses and error events (400/500)
+- Validate fleet, companies, and ride details in the **chicago_taxi** database
+- Produce clear evidence to support backend debugging and QA
 
 ---
 
-## 🔧 Tecnologias e Ferramentas
+## 🔧 Technologies & Tools
 
-- 🖥️ **Terminal (Bash)** — análise e manipulação dos logs
-- 🗄️ **PostgreSQL** — consultas no banco de dados
-- 📄 **Google Docs** — documentação dos resultados
-
----
-
-## ▶️ Como Executar
-
-1. Conectar-se ao servidor via console;  
-2. Executar comandos Bash para filtrar e organizar logs;  
-3. Realizar consultas SQL no banco **chicago_taxi**;  
-4. Documentar evidências no Google Docs.
+- **Terminal (Bash)** — log filtering and processing
+- **PostgreSQL** — database queries and validation
+- **Google Docs** — documentation of results
 
 ---
 
-## 🧾 Resultado
+## ▶️ How to Run
 
-- Comandos para consulta e filtragem de logs;  
-- Extração de dados de IPs e erros 400/500;  
-- Consulta SQL para validar frota, empresas e condições climáticas;  
-- Evidências organizadas e compartilhadas em Google Docs.
-
----
-
-## 📚 Aprendizados
-
-- Filtrar logs via terminal;  
-- Escrever consultas SQL com joins e condições;  
-- Produzir evidências claras para backend QA.
+1. Connect to the server using the console  
+2. Run **Bash** commands to filter and organize log files  
+3. Execute **SQL** queries on the **chicago_taxi** database  
+4. Document findings and evidence in **Google Docs**
 
 ---
 
-## 💡 Melhorias Futuras
+## 🧾 Results
 
-- Automatizar rotinas de coleta de logs;  
-- Integrar scripts de consulta com relatórios automatizados.
-
----
-
-## 📂 Arquivos do Projeto
-
-- [`📄 Documentação das tarefas`](https://docs.google.com/document/d/1PMawzHyqS_U6IcaafOOS0EJXGPhsbQmKfFfWpv8F3rE/edit?usp=sharing)
+- Bash commands created for log filtering and extraction  
+- IP addresses and HTTP 400/500 error records identified  
+- SQL queries validated fleet, company, and weather condition data  
+- Evidence compiled and shared through Google Docs
 
 ---
 
-##  🇺🇸 Project Summary
+## 📚 What I Learned
 
-**Logs & Database - Taxi App** is a QA project focused on back-end validation through log investigation and database queries.  
-The main goal was to practice extracting, filtering and organizing log records using Bash commands and performing PostgreSQL queries to check fleet, companies and trip data for a taxi app.  
-This project helped develop my skills in server log analysis, test evidence organization and SQL queries to support backend quality checks.
+- Filtering and analyzing logs in the terminal  
+- Writing SQL queries with joins and conditions  
+- Producing clear documentation to support backend QA activities
+
+---
+
+## 💡 Future Improvements
+
+- Automate log collection and filtering routines  
+- Integrate query scripts with automated reporting tools
+
+---
+
+## 📂 Project Files
+
+- [`📄 Task Documentation`](https://docs.google.com/document/d/1PMawzHyqS_U6IcaafOOS0EJXGPhsbQmKfFfWpv8F3rE/edit?usp=sharing)
